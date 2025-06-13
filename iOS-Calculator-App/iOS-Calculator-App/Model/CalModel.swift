@@ -33,3 +33,7 @@ enum Keys: String{
         }
     }
 }
+
+enum Operations{
+    case plus, minus, multiply, divide, none
+}
