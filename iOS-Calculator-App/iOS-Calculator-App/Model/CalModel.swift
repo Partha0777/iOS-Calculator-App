@@ -1,3 +1,4 @@
+import SwiftUICore
 
 
 enum Keys: String{
@@ -21,4 +22,14 @@ enum Keys: String{
     case plusMinus = "+/-"
     case percentage = "%"
 
+    var buttonColor : Color{
+        switch self{
+        case .clear, .plusMinus, .percentage:
+            return .white
+        case .divide, .multiply, .minus, .plus, .equal:
+            return .purple
+        default:
+            return .white
+        }
+    }
 }
