@@ -9,6 +9,9 @@ import SwiftUI
 
 @main
 struct iOS_Calculator_AppApp: App {
+    
+    var keysList: [[Keys]] = []
+
     var body: some Scene {
         WindowGroup {
             ContentView()
