@@ -17,6 +17,8 @@ struct iOS_Calculator_AppApp: App {
         ,[.one, .two, .three, .plus]
         ,[.zero, .dot, .equal]
     ]
+    
+    val currentValue = 0
 
     var body: some Scene {
         WindowGroup {
