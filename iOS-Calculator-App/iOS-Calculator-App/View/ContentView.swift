@@ -16,7 +16,6 @@ struct ContentView: View {
         ,[.one, .two, .three, .plus]
         ,[.zero, .dot, .equal]
     ]
-    
     var currentValue = 0
 
     var body: some View {
@@ -26,7 +25,7 @@ struct ContentView: View {
                 .frame(height: 300).padding(EdgeInsets(top: 4, leading: 20, bottom: 4, trailing: 20))
             
         }
-        
+        Spacer()
     }
 }
 
