@@ -18,7 +18,7 @@ struct iOS_Calculator_AppApp: App {
         ,[.zero, .dot, .equal]
     ]
     
-    val currentValue = 0
+    var currentValue = 0
 
     var body: some Scene {
         WindowGroup {
@@ -26,3 +26,9 @@ struct iOS_Calculator_AppApp: App {
         }
     }
 }
+
+
+#Preview {
+    ContentView()
+}
+
