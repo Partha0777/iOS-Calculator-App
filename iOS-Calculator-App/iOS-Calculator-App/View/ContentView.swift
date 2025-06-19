@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var keysList: [[Keys]] = [
         [.clear, .plusMinus, .percentage, .divide]
         ,[.seven, .eight, .nine, .multiply]
@@ -20,6 +21,8 @@ struct ContentView: View {
 
     var body: some View {
         VStack {
+            RoundedRectangle(cornerRadius: 20).fill(.cyan)
+                .frame(height: 300).padding(EdgeInsets(top: 4, leading: 20, bottom: 4, trailing: 20))
             
         }
     }
