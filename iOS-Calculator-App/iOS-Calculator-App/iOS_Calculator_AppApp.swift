@@ -10,25 +10,11 @@ import SwiftUI
 @main
 struct iOS_Calculator_AppApp: App {
     
-    var keysList: [[Keys]] = [
-        [.clear, .plusMinus, .percentage, .divide]
-        ,[.seven, .eight, .nine, .multiply]
-        ,[.four, .five, .six, .minus]
-        ,[.one, .two, .three, .plus]
-        ,[.zero, .dot, .equal]
-    ]
-    
-    var currentValue = 0
 
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
     }
-}
-
-
-#Preview {
-    ContentView()
 }
 
