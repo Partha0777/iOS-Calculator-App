@@ -20,11 +20,13 @@ struct ContentView: View {
     var currentValue = 0
 
     var body: some View {
+        
         VStack {
             RoundedRectangle(cornerRadius: 20).fill(.cyan)
                 .frame(height: 300).padding(EdgeInsets(top: 4, leading: 20, bottom: 4, trailing: 20))
             
         }
+        
     }
 }
 
